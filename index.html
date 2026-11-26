@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soso Creative Agency — We make brands impossible to ignore</title>
+  <meta name="description" content="Soso is an independent creative agency crafting brands, websites, apps and campaigns that refuse to blend in.">
+  <meta name="theme-color" content="#0A0A0A">
+  <link rel="icon" type="image/png" href="logo-mark.png">
+  <meta property="og:title" content="Soso Creative Agency">
+  <meta property="og:description" content="We make brands impossible to ignore.">
+  <meta property="og:image" content="logo-full.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============ PRELOADER / TRANSITION CURTAIN ============ -->
+  <div class="curtain" aria-hidden="true">
+    <div class="curtain__inner">
+      <img class="curtain__mark" src="logo-mark.png" alt="" width="297" height="480">
+      <span class="curtain__label"></span>
+      <span class="curtain__count mono"><span class="curtain__num">0</span>%</span>
+    </div>
+  </div>
+
+  <!-- ============ CURSOR ============ -->
+  <div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" data-nav>
+    <a class="nav__logo" href="#top" aria-label="Soso Creative Agency — home">
+      <img src="logo-mark.png" alt="" width="297" height="480">
+      <span>SOSO<em>creative</em></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#work" data-transition="Work"><span data-roll>Work</span></a>
+      <a href="#services" data-transition="Services"><span data-roll>Services</span></a>
+      <a href="#about" data-transition="About"><span data-roll>About</span></a>
+      <a href="#contact" data-transition="Contact"><span data-roll>Contact</span></a>
+    </nav>
+    <a class="btn btn--pill nav__cta" href="#contact" data-transition="Let's talk" data-magnetic>
+      <span data-roll>Let's Talk</span> <span class="btn__arrow" aria-hidden="true">→</span>
+    </a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu">
+      <span class="nav__toggle-label">Menu</span>
+      <span class="nav__toggle-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </header>
+
+  <!-- ============ MOBILE MENU ============ -->
+  <div class="menu" id="menu" aria-hidden="true" inert>
+    <nav class="menu__list" aria-label="Mobile">
+      <a href="#work" data-transition="Work"><small>01</small><span>Work</span></a>
+      <a href="#services" data-transition="Services"><small>02</small><span>Services</span></a>
+      <a href="#about" data-transition="About"><small>03</small><span>About</span></a>
+      <a href="#contact" data-transition="Contact"><small>04</small><span>Contact</span></a>
+    </nav>
+    <div class="menu__foot">
+      <a href="mailto:info@sosocreativeagency.co.za">info@sosocreativeagency.co.za</a>
+      <div class="menu__socials">
+        <a href="tel:+27763101288">+27 76 310 1288</a><span>Johannesburg, South Africa</span>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__meta mono">
+        <span>(Soso) Independent creative agency</span>
+        <span class="hero__time">Johannesburg <b data-clock>--:--</b></span>
+        <span class="hero__status"><i class="dot"></i>Taking on Q1 projects</span>
+      </div>
+
+      <h1 class="hero__title" aria-label="We make brands move.">
+        <span class="hero__line" aria-hidden="true">
+          <span class="hero__line-inner"><span data-weight>We make</span>
+            <span class="hero__pill">
+              <span class="hero__pill-track" data-pill></span>
+            </span>
+          </span>
+        </span>
+        <span class="hero__line hero__line--indent" aria-hidden="true">
+          <span class="hero__line-inner"><span data-weight>Brands</span></span>
+        </span>
+        <span class="hero__line" aria-hidden="true">
+          <span class="hero__line-inner">
+            <span class="rotator">
+              <span class="rotator__word is-active" data-weight>Move<span class="hero__period">.</span></span>
+              <span class="rotator__word" data-weight>Talk<span class="hero__period">.</span></span>
+              <span class="rotator__word" data-weight>Stick<span class="hero__period">.</span></span>
+              <span class="rotator__word" data-weight>Matter<span class="hero__period">.</span></span>
+            </span>
+          </span>
+        </span>
+      </h1>
+
+      <div class="hero__foot">
+        <p class="hero__intro" data-reveal>Soso is an independent creative agency crafting brands, websites, apps and campaigns that refuse to blend in.</p>
+        <a class="hero__scroll mono" href="#work" data-reveal>
+          <span class="hero__scroll-line" aria-hidden="true"></span> See the work
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <section class="marquee" aria-label="What we do">
+      <div class="marquee__track" data-marquee>
+        <div class="marquee__group">
+          <span>Branding</span><i>✱</i><span class="o">Websites</span><i>✱</i><span>Mobile Apps</span><i>✱</i><span class="o">UI/UX</span><i>✱</i><span>Digital Marketing</span><i>✱</i><span class="o">Strategy</span><i>✱</i>
+        </div>
+        <div class="marquee__group" aria-hidden="true">
+          <span>Branding</span><i>✱</i><span class="o">Websites</span><i>✱</i><span>Mobile Apps</span><i>✱</i><span class="o">UI/UX</span><i>✱</i><span>Digital Marketing</span><i>✱</i><span class="o">Strategy</span><i>✱</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MANIFESTO ============ -->
+    <section class="manifesto">
+      <span class="label mono">(01) — Manifesto</span>
+      <p class="manifesto__text" data-scrub-words>
+        Attention is the most expensive thing in the world. Most brands rent it. We help you <em>own it</em> — with ideas sharp enough to cut through, design bold enough to remember, and technology smooth enough to forget. We make brands impossible to ignore.
+      </p>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="work" id="work">
+      <div class="section-head">
+        <span class="label mono">(02) — Selected work</span>
+        <h2 class="display" data-split>Work that<br>refuses to<br>sit still.</h2>
+        <p class="section-head__aside" data-reveal>Four disciplines, one studio. Pick a category to see the projects behind it.</p>
+      </div>
+
+      <div class="cats" data-disciplines>
+        <button type="button" class="cat" data-cat="brand" data-num="01" data-name="Branding &amp; Identity" data-cursor="Open" aria-label="Branding & Identity: 9 projects. Show projects">
+          <span class="cat__media"><img src="assets/work/cat-branding-800.webp" srcset="assets/work/cat-branding-800.webp 800w, assets/work/cat-branding-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 50vw" alt="" width="1600" height="1067" loading="lazy" decoding="async"></span>
+          <span class="cat__foot" aria-hidden="true"><span class="cat__num mono">(01)</span><span class="cat__name">Branding &amp; Identity</span><span class="cat__cta mono">View 9 projects →</span></span>
+        </button>
+        <button type="button" class="cat" data-cat="web" data-num="02" data-name="Website Design &amp; Development" data-cursor="Open" aria-label="Website Design & Development: 7 projects. Show projects">
+          <span class="cat__media"><img src="assets/work/cat-web-800.webp" srcset="assets/work/cat-web-800.webp 800w, assets/work/cat-web-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 50vw" alt="" width="1600" height="1067" loading="lazy" decoding="async"></span>
+          <span class="cat__foot" aria-hidden="true"><span class="cat__num mono">(02)</span><span class="cat__name">Website Design &amp; Development</span><span class="cat__cta mono">View 7 projects →</span></span>
+        </button>
+        <button type="button" class="cat" data-cat="app" data-num="03" data-name="Mobile Application" data-cursor="Open" aria-label="Mobile Application: Coming soon. Show projects">
+          <span class="cat__media"><img src="assets/work/cat-app-800.webp" srcset="assets/work/cat-app-800.webp 800w, assets/work/cat-app-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 50vw" alt="" width="1600" height="1067" loading="lazy" decoding="async"></span>
+          <span class="cat__foot" aria-hidden="true"><span class="cat__num mono">(03)</span><span class="cat__name">Mobile Application</span><span class="cat__cta mono">Coming soon →</span></span>
+        </button>
+        <button type="button" class="cat" data-cat="marketing" data-num="04" data-name="Digital Marketing" data-cursor="Open" aria-label="Digital Marketing: 4 projects. Show projects">
+          <span class="cat__media"><img src="assets/work/cat-marketing-800.webp" srcset="assets/work/cat-marketing-800.webp 800w, assets/work/cat-marketing-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 50vw" alt="" width="1600" height="1067" loading="lazy" decoding="async"></span>
+          <span class="cat__foot" aria-hidden="true"><span class="cat__num mono">(04)</span><span class="cat__name">Digital Marketing</span><span class="cat__cta mono">View 4 projects →</span></span>
+        </button>
+      </div>
+      <p class="disciplines__all"><button type="button" class="mono" data-cat="all" data-num="00" data-name="All work">Or browse all 11 projects →</button></p>
+
+      <div class="work__results" data-results hidden>
+        <div class="results__head">
+          <button type="button" class="results__back mono" data-results-back>← All categories</button>
+          <h3 class="results__title"><span class="results__num mono" data-results-num>01</span><span data-results-title>Branding &amp; Identity</span></h3>
+          <span class="results__count mono" data-results-count>9 projects</span>
+        </div>
+
+      <div class="work__grid" data-grid>
+        <a class="project" href="#contact" data-cat="brand web" data-cursor="View"
+           data-title="CBA Water" data-client="CBA Water — consulting, supply &amp; projects" data-sector="Water &amp; irrigation" data-services="Brand identity|Brand guidelines|Stationery|Vehicle &amp; workwear branding|Landing page" data-desc="A clean, confident identity for a water consulting, supply and projects company. Flowing water motifs, a deep-blue palette and a full guideline system carried across stationery, workwear, site vehicles and a landing page built to win quote requests." data-img="cba-water" data-alts="CBA Water Brand Identity Board|CBA Water Brand Guidelines Presentation|CBA Water Corporate Stationery Showcase|CBA WATER Industrial Branding Showcase|CBA Water Irrigation Landing Page">
+          <div class="project__media">
+            <img src="assets/work/cba-water-1-800.webp" srcset="assets/work/cba-water-1-800.webp 800w, assets/work/cba-water-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 33vw" alt="CBA Water Brand Identity Board" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+          <div class="project__info">
+            <h3>CBA Water</h3><span class="mono">Water &amp; irrigation</span>
+            <ul class="tags"><li class="tags__cat">Branding</li><li>Brand identity</li><li>Brand guidelines</li></ul>
+          </div>
+        </a>
+        <a class="project" href="#contact" data-cat="brand" data-cursor="View"
+           data-title="Diraro Projects" data-client="Diraro Projects — office furniture &amp; workspace solutions" data-sector="Office furniture &amp; interiors" data-services="Brand identity|Stationery|Merchandise|Showroom &amp; fleet branding|Web banners" data-desc="A premium identity for an office furniture manufacturer. A bold Africa-in-a-ring mark, black and gold with vibrant accents, rolled out across stationery, packaging, apparel, delivery vehicles and showroom signage." data-img="diraro" data-alts="Diraro Premium Office Solutions|Diraro Projects Brand Identity Board|Diraro Projects Stationery Showcase|Diraro Projects Brand Identity Showcase|Diraro Projects Executive Workspace">
+          <div class="project__media">
+            <img src="assets/work/diraro-1-800.webp" srcset="assets/work/diraro-1-800.webp 800w, assets/work/diraro-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 33vw" alt="Diraro Premium Office Solutions" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+          <div class="project__info">
+            <h3>Diraro Projects</h3><span class="mono">Office furniture &amp; interiors</span>
+            <ul class="tags"><li class="tags__cat">Branding</li><li>Brand identity</li><li>Stationery</li></ul>
+          </div>
+        </a>
+        <a class="project" href="#contact" data-cat="brand web" data-cursor="View"
+           data-title="Gjobana Florist" data-client="Gjobana Florist — &quot;Your best floral friend&quot;" data-sector="Flowers &amp; gifting" data-services="Brand identity|Moodboard|Stationery|Vehicle branding|Responsive website" data-desc="A romantic, script-led identity for a florist and gift-delivery business. Deep berry, blush and leaf green carried from gift tags and delivery notes to the delivery van and a responsive shop-by-occasion website." data-img="gjobana" data-alts="Gjobana Florist Premium Floral Banner|Gjobana Florist Brand Identity Board|Gjobana Florist Stationery Collection|Gjobana Florist Brand Moodboard|Gjobana Florist Responsive Website Mockup">
+          <div class="project__media">
+            <img src="assets/work/gjobana-1-800.webp" srcset="assets/work/gjobana-1-800.webp 800w, assets/work/gjobana-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 33vw" alt="Gjobana Florist Premium Floral Banner" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+          <div class="project__info">
+            <h3>Gjobana Florist</h3><span class="mono">Flowers &amp; gifting</span>
+            <ul class="tags"><li class="tags__cat">Branding</li><li>Brand identity</li><li>Moodboard</li></ul>
+          </div>
+        </a>
+        <a class="project" href="#contact" data-cat="brand web" data-cursor="View"
+           data-title="Magale Secondary School" data-client="Magale Secondary School, Limpopo" data-sector="Education" data-services="Brand identity|School crest|Uniform &amp; merchandise|Signage|Responsive website" data-desc="A proud, modern identity for a rural high school in Limpopo built around the line &quot;Dream · Strive · Soar&quot;. A refreshed crest, navy and red palette, uniforms, signage, stationery and a responsive school website." data-img="magale" data-alts="Magale Secondary School Brand Showcase|Magale Secondary School Brand Showcase|Magale Secondary School Brand Identity|Magale Secondary School Brand Showcase|Magale Secondary School: Dream, Strive, Soar|Magale Secondary School Brand Showcase|Magale Secondary School: Dream, Strive, Soar|Magale School Responsive Website Mockup">
+          <div class="project__media">
+            <img src="assets/work/magale-1-800.webp" srcset="assets/work/magale-1-800.webp 800w, assets/work/magale-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 33vw" alt="Magale Secondary School Brand Showcase" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+          <div class="project__info">
+            <h3>Magale Secondary School</h3><span class="mono">Education</span>
+            <ul class="tags"><li class="tags__cat">Branding</li><li>Brand identity</li><li>School crest</li></ul>
+          </div>
+        </a>
+        <a class="project" href="#contact" data-cat="brand web" data-cursor="View"
+           data-title="Mel’s Beauty &amp; Aesthetics" data-client="Mel’s Beauty &amp; Aesthetics — mobile beauty &amp; laser treatments" data-sector="Beauty &amp; wellness" data-services="Brand identity|Stationery|Vehicle branding|Packaging|Website" data-desc="A soft, luxurious identity for a mobile beauty and laser-treatment service that comes to your door. Warm nudes and rose gold across stationery, product packaging, the branded vehicle and a booking-led website." data-img="mels-beauty" data-alts="Mel’s Beauty At-Home Spa Services|Mel’s Beauty &amp; Aesthetics Brand Board|Mel’s Luxury Beauty Stationery Collage|Mel’s Beauty &amp; Aesthetics Brand Showcase|Mel’s Beauty &amp; Aesthetics Website Mockup">
+          <div class="project__media">
+            <img src="assets/work/mels-beauty-1-800.webp" srcset="assets/work/mels-beauty-1-800.webp 800w, assets/work/mels-beauty-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 33vw" alt="Mel’s Beauty At-Home Spa Services" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+          <div class="project__info">
+            <h3>Mel’s Beauty &amp; Aesthetics</h3><span class="mono">Beauty &amp; wellness</span>
+            <ul class="tags"><li class="tags__cat">Branding</li><li>Brand identity</li><li>Stationery</li></ul>
+          </div>
+        </a>
+        <a class="project" href="#contact" data-cat="marketing" data-cursor="View"
+           data-title="NCR — Know Your Credit Rights" data-client="National Credit Regulator (NCR)" data-sector="Consumer protection" data-services="Campaign|Billboards|Out-of-home" data-desc="A large-format outdoor campaign for the National Credit Regulator encouraging South Africans to know their credit rights. A bold, warm creative designed to read in seconds from the highway." data-img="ncr" data-alts="NCR Credit Rights Highway Billboard|NCR Credit Rights Billboard Mockup|NCR Credit Rights Highway Billboard|NCR Credit Rights Billboard Mockup|NCR Credit Rights Billboard Mockup">
+          <div class="project__media">
+            <img src="assets/work/ncr-1-800.webp" srcset="assets/work/ncr-1-800.webp 800w, assets/work/ncr-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 33vw" alt="NCR Credit Rights Highway Billboard" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+          <div class="project__info">
+            <h3>NCR — Know Your Credit Rights</h3><span class="mono">Consumer protection</span>
+            <ul class="tags"><li class="tags__cat">Digital Marketing</li><li>Campaign</li><li>Billboards</li></ul>
+          </div>
+        </a>
+        <a class="project" href="#contact" data-cat="brand web" data-cursor="View"
+           data-title="Nitefalls Medical Centre" data-client="Nitefalls Medical Centre, Carletonville" data-sector="Healthcare" data-services="Logo design|Brand identity|Stationery|Signage|Website" data-desc="A trusted, caring identity for a full-service medical centre. A cross-and-heartbeat mark in clean blues, carried across prescription pads and appointment cards, building signage, vehicles and a patient-friendly website." data-img="nitefalls" data-alts="Nitefalls Medical Centre Logo|Nitefalls Medical Centre Brand Identity|Nitefalls Medical Centre Stationery Suite|Nitefalls Medical Centre Branding Showcase|Nitefalls Medical Centre Website Mockup">
+          <div class="project__media">
+            <img src="assets/work/nitefalls-1-800.webp" srcset="assets/work/nitefalls-1-800.webp 800w, assets/work/nitefalls-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 33vw" alt="Nitefalls Medical Centre Logo" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+          <div class="project__info">
+            <h3>Nitefalls Medical Centre</h3><span class="mono">Healthcare</span>
+            <ul class="tags"><li class="tags__cat">Branding</li><li>Logo design</li><li>Brand identity</li></ul>
+          </div>
+        </a>
+        <a class="project" href="#contact" data-cat="brand marketing web" data-cursor="View"
+           data-title="POPCRU" data-client="Police and Prisons Civil Rights Union (POPCRU)" data-sector="Labour union" data-services="Brand identity|Campaign poster|Stationery|Merchandise|Website" data-desc="A strong, unified identity for the Police and Prisons Civil Rights Union built around the torch emblem and &quot;Justice for All&quot;. Applied to stationery, member merchandise, campaign posters and a union homepage." data-img="popcru" data-alts="POPCRU Justice for All Poster|POPCRU Brand Identity Board|POPCRU Corporate Stationery Suite|POPCRU Corporate Branding Showcase|POPCRU Union Homepage Mockup">
+          <div class="project__media">
+            <img src="assets/work/popcru-1-800.webp" srcset="assets/work/popcru-1-800.webp 800w, assets/work/popcru-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 33vw" alt="POPCRU Justice for All Poster" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+          <div class="project__info">
+            <h3>POPCRU</h3><span class="mono">Labour union</span>
+            <ul class="tags"><li class="tags__cat">Branding</li><li>Brand identity</li><li>Campaign poster</li></ul>
+          </div>
+        </a>
+        <a class="project" href="#contact" data-cat="brand web" data-cursor="View"
+           data-title="Papanyana Foundation" data-client="Papanyana Foundation — &quot;Reaching for one another&quot;" data-sector="Non-profit" data-services="Brand identity|Stationery|Merchandise|Vehicle branding|Website" data-desc="A hopeful, colourful identity for a foundation empowering communities through education, skills, healthcare and community support. Linked figures in a bright palette, rolled out across stationery, apparel, banners, vehicles and the website." data-img="papanyana" data-alts="Papanyana Foundation Case Study Cover|Papanyana Foundation Stationery Suite|Papanyana Foundation Branding Showcase|Papanyana Foundation Community Empowerment|Papanyana Foundation Brand Portfolio">
+          <div class="project__media">
+            <img src="assets/work/papanyana-1-800.webp" srcset="assets/work/papanyana-1-800.webp 800w, assets/work/papanyana-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 33vw" alt="Papanyana Foundation Case Study Cover" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+          <div class="project__info">
+            <h3>Papanyana Foundation</h3><span class="mono">Non-profit</span>
+            <ul class="tags"><li class="tags__cat">Branding</li><li>Brand identity</li><li>Stationery</li></ul>
+          </div>
+        </a>
+        <a class="project" href="#contact" data-cat="marketing" data-cursor="View"
+           data-title="SEDA Annual Review" data-client="Small Enterprise Development Agency (SEDA)" data-sector="Government &amp; enterprise" data-services="Editorial design|Annual report|Infographics|Print" data-desc="An annual review magazine for the Small Enterprise Development Agency. Editorial layouts, impact-in-numbers infographics and real entrepreneur stories that make a year of enterprise support easy to read." data-img="seda" data-alts="SEDA Annual Review Portfolio Mockup|SEDA Annual Review Editorial Showcase|SEDA Annual Review Magazine Stack|SEDA Annual Review Editorial Showcase">
+          <div class="project__media">
+            <img src="assets/work/seda-1-800.webp" srcset="assets/work/seda-1-800.webp 800w, assets/work/seda-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 33vw" alt="SEDA Annual Review Portfolio Mockup" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+          <div class="project__info">
+            <h3>SEDA Annual Review</h3><span class="mono">Government &amp; enterprise</span>
+            <ul class="tags"><li class="tags__cat">Digital Marketing</li><li>Editorial design</li><li>Annual report</li></ul>
+          </div>
+        </a>
+        <a class="project" href="#contact" data-cat="brand marketing" data-cursor="View"
+           data-title="Umnotho Community" data-client="Umnotho Community Development" data-sector="Community development" data-services="Brand identity|Campaign concepts|Housing showcase|Stationery" data-desc="Identity and communication concepts for a community development organisation focused on housing, youth skills training and sustainable opportunities. People-first imagery and a fresh green system." data-img="umnotho" data-alts="Umnotho Community: Building Lasting Impact|Umnotho Community Housing Showcase|Umnotho Youth Skills Development|Umnotho Community: Building Stronger Communities|Umnotho Community Development Showcase">
+          <div class="project__media">
+            <img src="assets/work/umnotho-1-800.webp" srcset="assets/work/umnotho-1-800.webp 800w, assets/work/umnotho-1-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 33vw" alt="Umnotho Community: Building Lasting Impact" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+          <div class="project__info">
+            <h3>Umnotho Community</h3><span class="mono">Community development</span>
+            <ul class="tags"><li class="tags__cat">Branding</li><li>Brand identity</li><li>Campaign concepts</li></ul>
+          </div>
+        </a>
+      </div>
+      <div class="work__empty" data-results-empty hidden>
+        <p>We're putting the finishing touches on this showcase. Have an app idea? Let's build it together.</p>
+        <a class="btn btn--pill" href="#contact" data-empty-cta><span data-roll>Start a project</span> <span class="btn__arrow" aria-hidden="true">→</span></a>
+      </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services">
+      <div class="section-head section-head--dark">
+        <span class="label mono">(03) — Services</span>
+        <h2 class="display" data-split>Everything a<br>brand needs<br>to be loud.</h2>
+      </div>
+
+      <ul class="svc">
+        <li class="svc__item">
+          <button class="svc__row" type="button" aria-expanded="false" data-cursor="Open">
+            <span class="svc__num mono">01</span><span class="svc__name">Corporate Identity &amp; Branding</span><span class="svc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc__panel"><div class="svc__panel-inner">
+            <p>Names, logos, systems and voices built to last decades, not quarters. We find the one idea only you can own, then make it unmistakable everywhere.</p>
+            <ul class="tags tags--dark"><li>Brand strategy</li><li>Naming</li><li>Logo &amp; visual identity</li><li>Guidelines</li><li>Packaging</li></ul>
+          </div></div>
+        </li>
+        <li class="svc__item">
+          <button class="svc__row" type="button" aria-expanded="false" data-cursor="Open">
+            <span class="svc__num mono">02</span><span class="svc__name">Website Design &amp; Development</span><span class="svc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc__panel"><div class="svc__panel-inner">
+            <p>Fast, crafted, conversion-minded websites — from editorial brand sites to headless commerce. Designed in motion, engineered for performance.</p>
+            <ul class="tags tags--dark"><li>Art direction</li><li>Front-end</li><li>CMS</li><li>E-commerce</li><li>Performance</li></ul>
+          </div></div>
+        </li>
+        <li class="svc__item">
+          <button class="svc__row" type="button" aria-expanded="false" data-cursor="Open">
+            <span class="svc__num mono">03</span><span class="svc__name">Mobile App Design &amp; Development</span><span class="svc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc__panel"><div class="svc__panel-inner">
+            <p>Native-feeling iOS and Android products people actually keep on their home screen. From first prototype to App Store launch.</p>
+            <ul class="tags tags--dark"><li>Product design</li><li>iOS &amp; Android</li><li>Prototyping</li><li>Launch</li></ul>
+          </div></div>
+        </li>
+        <li class="svc__item">
+          <button class="svc__row" type="button" aria-expanded="false" data-cursor="Open">
+            <span class="svc__num mono">04</span><span class="svc__name">UI/UX Design</span><span class="svc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc__panel"><div class="svc__panel-inner">
+            <p>Interfaces that feel obvious in the best way. Research-led flows, rigorous design systems and the micro-interactions that make products feel alive.</p>
+            <ul class="tags tags--dark"><li>Research</li><li>UX flows</li><li>Design systems</li><li>Usability testing</li></ul>
+          </div></div>
+        </li>
+        <li class="svc__item">
+          <button class="svc__row" type="button" aria-expanded="false" data-cursor="Open">
+            <span class="svc__num mono">05</span><span class="svc__name">Digital Marketing</span><span class="svc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc__panel"><div class="svc__panel-inner">
+            <p>Campaigns with a point of view. Social, content and performance work that earns attention instead of buying it — and proves it with numbers.</p>
+            <ul class="tags tags--dark"><li>Campaigns</li><li>Social</li><li>Content</li><li>Paid media</li><li>SEO</li></ul>
+          </div></div>
+        </li>
+        <li class="svc__item">
+          <button class="svc__row" type="button" aria-expanded="false" data-cursor="Open">
+            <span class="svc__num mono">06</span><span class="svc__name">Creative Strategy</span><span class="svc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc__panel"><div class="svc__panel-inner">
+            <p>The thinking before the making. Positioning, audience insight and the creative platform that keeps every touchpoint pulling in the same direction.</p>
+            <ul class="tags tags--dark"><li>Positioning</li><li>Audience insight</li><li>Creative platforms</li><li>Workshops</li></ul>
+          </div></div>
+        </li>
+        <li class="svc__item">
+          <button class="svc__row" type="button" aria-expanded="false" data-cursor="Open">
+            <span class="svc__num mono">07</span><span class="svc__name">Digital Experiences</span><span class="svc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc__panel"><div class="svc__panel-inner">
+            <p>Interactive installations, WebGL moments, launch microsites and the experimental stuff people screenshot and send to friends.</p>
+            <ul class="tags tags--dark"><li>Interactive</li><li>WebGL &amp; 3D</li><li>Microsites</li><li>Installations</li></ul>
+          </div></div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="process" aria-labelledby="process-title">
+      <div class="process__pin">
+        <div class="process__head">
+          <span class="label mono">(04) — Process</span>
+          <h2 class="display display--md" id="process-title" data-split>How the magic<br>gets made.</h2>
+        </div>
+        <div class="process__track">
+          <article class="step">
+            <span class="step__num">01</span>
+            <h3>Discover</h3>
+            <p>We dig into your business, your audience and your competitors until we find the tension worth building on.</p>
+          </article>
+          <article class="step">
+            <span class="step__num">02</span>
+            <h3>Define</h3>
+            <p>Strategy distilled into one sharp idea and a creative platform the whole team can rally behind.</p>
+          </article>
+          <article class="step">
+            <span class="step__num">03</span>
+            <h3>Design</h3>
+            <p>Fast, iterative, in the open. We prototype early, test often and sweat the details nobody asked us to.</p>
+          </article>
+          <article class="step">
+            <span class="step__num">04</span>
+            <h3>Deliver</h3>
+            <p>Launch is the starting line. We ship, measure, learn and keep the brand moving long after go-live.</p>
+          </article>
+        </div>
+        <div class="process__progress" aria-hidden="true"><span></span></div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="about__grid">
+        <div class="about__left">
+          <span class="label mono">(05) — About</span>
+          <h2 class="display display--md" data-split>Small studio.<br>Big noise.</h2>
+        </div>
+        <div class="about__right">
+          <p class="about__lead" data-reveal>We're a tight crew of designers, developers, strategists and storytellers who believe the best work happens when craft and courage sit at the same table.</p>
+          <p data-reveal>No account-management layers. No recycled templates. Just senior people who care a slightly unreasonable amount about the work — and about your results.</p>
+          <ul class="values" data-reveal>
+            <li><b>Bold over safe.</b> Forgettable is the only real risk.</li>
+            <li><b>Craft over speed.</b> Then we make it fast anyway.</li>
+            <li><b>Partners over vendors.</b> Your wins are our portfolio.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PLACEHOLDER: stats -->
+      <div class="stats">
+        <div class="stat"><span class="stat__num"><b data-count="140">0</b>+</span><span class="stat__label mono">Projects shipped</span></div>
+        <div class="stat"><span class="stat__num"><b data-count="9">0</b></span><span class="stat__label mono">Years making noise</span></div>
+        <div class="stat"><span class="stat__num"><b data-count="24">0</b></span><span class="stat__label mono">Awards &amp; mentions</span></div>
+        <div class="stat"><span class="stat__num"><b data-count="92">0</b>%</span><span class="stat__label mono">Clients who come back</span></div>
+      </div>
+    </section>
+
+    <!-- ============ CLIENTS + TESTIMONIALS ============ -->
+    <section class="clients" aria-labelledby="clients-title">
+      <span class="label mono">(06) — Trusted by</span>
+      <h2 class="sr-only" id="clients-title">Clients and testimonials</h2>
+      <!-- PLACEHOLDER: client names -->
+      <ul class="clients__grid">
+        <li class="w1">Northwind</li><li class="w2">oaklane</li><li class="w3">VERTEX</li><li class="w4">Mira&amp;Co</li>
+        <li class="w5">helio</li><li class="w6">PARALLEL</li><li class="w7">Fieldnote</li><li class="w8">ORBIT—</li>
+      </ul>
+
+      <!-- PLACEHOLDER: testimonials -->
+      <div class="quotes" data-quotes>
+        <div class="quotes__stage" aria-live="polite">
+          <figure class="quote is-active">
+            <blockquote>“Soso didn't just redesign our brand — they gave us a reason to be talked about. Inbound leads doubled in a quarter.”</blockquote>
+            <figcaption><b>Amara Okafor</b><span class="mono">CMO, Halcyon</span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>“The rare agency that's as obsessed with the details as we are. Every pixel had a reason, every animation had a job.”</blockquote>
+            <figcaption><b>Daniel Reyes</b><span class="mono">Founder, Volta Motors</span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>“Fast, fearless and genuinely fun to work with. They pushed us further than we'd have dared on our own.”</blockquote>
+            <figcaption><b>Lena Fischer</b><span class="mono">Head of Brand, Nomad Coffee</span></figcaption>
+          </figure>
+        </div>
+        <div class="quotes__nav">
+          <button type="button" class="round" data-prev aria-label="Previous testimonial" data-magnetic>←</button>
+          <span class="mono quotes__count"><b>01</b> / 03</span>
+          <button type="button" class="round" data-next aria-label="Next testimonial" data-magnetic>→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="contact__cta">
+        <span class="label mono">(07) — Contact</span>
+        <h2 class="display display--xl" data-split>Let's make<br>something<br>loud<span class="accent">.</span></h2>
+        <a class="contact__circle" href="mailto:info@sosocreativeagency.co.za?subject=New%20project%20enquiry" data-magnetic data-cursor="Say hi">
+          <span>Start a<br>project</span><span class="btn__arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <form class="form" action="https://formsubmit.co/info@sosocreativeagency.co.za" method="POST" novalidate>
+        <input type="hidden" name="_subject" value="New project enquiry — Soso website">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input class="form__honey" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form__grid">
+          <div class="field">
+            <input id="f-name" name="name" type="text" placeholder=" " autocomplete="name" required>
+            <label for="f-name">Your name</label>
+          </div>
+          <div class="field">
+            <input id="f-email" name="email" type="email" placeholder=" " autocomplete="email" required>
+            <label for="f-email">Email address</label>
+          </div>
+          <div class="field">
+            <input id="f-company" name="company" type="text" placeholder=" " autocomplete="organization">
+            <label for="f-company">Company</label>
+          </div>
+        </div>
+
+        <fieldset class="chips">
+          <legend class="mono">I'm interested in</legend>
+          <label><input type="checkbox" name="interest" value="Branding"><span>Branding</span></label>
+          <label><input type="checkbox" name="interest" value="Website"><span>Website</span></label>
+          <label><input type="checkbox" name="interest" value="Mobile app"><span>Mobile app</span></label>
+          <label><input type="checkbox" name="interest" value="UI/UX"><span>UI/UX</span></label>
+          <label><input type="checkbox" name="interest" value="Marketing"><span>Marketing</span></label>
+          <label><input type="checkbox" name="interest" value="Strategy"><span>Strategy</span></label>
+          <label><input type="checkbox" name="interest" value="Something weird"><span>Something weird</span></label>
+        </fieldset>
+
+        <fieldset class="chips">
+          <legend class="mono">Budget</legend>
+          <label><input type="radio" name="budget" value="Under R50k"><span>&lt; R50k</span></label>
+          <label><input type="radio" name="budget" value="R50k – R150k"><span>R50k–150k</span></label>
+          <label><input type="radio" name="budget" value="R150k – R500k"><span>R150k–500k</span></label>
+          <label><input type="radio" name="budget" value="R500k+"><span>R500k +</span></label>
+        </fieldset>
+
+        <div class="field field--area">
+          <textarea id="f-msg" name="message" rows="3" placeholder=" " required></textarea>
+          <label for="f-msg">Tell us about your project</label>
+        </div>
+
+        <div class="form__foot">
+          <p class="form__status mono" role="status"></p>
+          <button class="btn btn--pill btn--big form__submit" type="submit" data-magnetic disabled>
+            <span data-roll>Send it</span> <span class="btn__arrow" aria-hidden="true">→</span>
+          </button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+
+  <!-- ============ CASE STUDY VIEWER ============ -->
+  <div class="case" role="dialog" aria-modal="true" aria-labelledby="case-title" hidden>
+    <div class="case__backdrop" data-case-close data-cursor="Close"></div>
+    <div class="case__panel" data-lenis-prevent>
+      <div class="case__top">
+        <span class="mono case__meta"></span>
+        <div class="case__actions">
+          <button type="button" class="round case__nav" data-case-prev aria-label="Previous project">←</button>
+          <button type="button" class="round case__nav" data-case-next aria-label="Next project">→</button>
+          <button type="button" class="round case__close" data-case-close aria-label="Close project">✕</button>
+        </div>
+      </div>
+      <h2 class="case__title" id="case-title"></h2>
+      <div class="case__body">
+        <p class="case__desc"></p>
+        <dl class="case__facts">
+          <div><dt class="mono">Client</dt><dd class="case__client"></dd></div>
+          <div><dt class="mono">Sector</dt><dd class="case__sector"></dd></div>
+          <div><dt class="mono">Services</dt><dd><ul class="tags case__services"></ul></dd></div>
+        </dl>
+      </div>
+      <div class="case__media"></div>
+      <div class="case__foot">
+        <a class="btn btn--pill btn--big" href="#contact" data-case-cta data-magnetic><span data-roll>Start a similar project</span> <span class="btn__arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__top">
+      <img class="footer__logo" src="logo-full.png" alt="Soso Creative Agency" width="900" height="600" loading="lazy">
+      <div class="footer__col">
+        <span class="mono label">Say hello</span>
+        <a class="footer__email" href="mailto:info@sosocreativeagency.co.za">info@sosocreativeagency.co.za</a>
+        <a class="footer__phone" href="tel:+27763101288"><span data-roll>+27 76 310 1288</span></a>
+      </div>
+      <div class="footer__col">
+        <span class="mono label">Location</span>
+        <address class="footer__address">100 Oakmond,<br>Jackals Creek Gold Estate,<br>Johannesburg</address>
+        <a class="footer__map" href="https://maps.google.com/?q=100+Oakmond+Jackals+Creek+Golf+Estate+Johannesburg" target="_blank" rel="noopener"><span data-roll>Get directions</span> ↗</a>
+      </div>
+      <div class="footer__col">
+        <span class="mono label">Johannesburg time</span>
+        <span data-clock>--:--</span>
+        <a class="footer__top-link" href="#top"><span data-roll>Back to top</span> ↑</a>
+      </div>
+    </div>
+    <div class="footer__word" aria-hidden="true"><span>S</span><span>O</span><span>S</span><span>O</span></div>
+    <div class="footer__legal mono">
+      <span>© <span data-copyright-year>2026</span> Soso Creative Agency</span>
+      <span>Made loud, on purpose.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/Flip.min.js" defer></script>
+  <script src="https://unpkg.com/lenis@1.3.4/dist/lenis.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

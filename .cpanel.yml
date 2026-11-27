@@ -3,6 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/hqqk6u6drdo8/public_html/
     - /bin/cp -R index.html $DEPLOYPATH
-    - /bin/cp -R css js assets category $DEPLOYPATH
+    - /bin/cp -R css js assets $DEPLOYPATH
     - /bin/cp favicon.png logo-full.png logo-full-light.png logo-mark.png og-image.jpg $DEPLOYPATH
     - /bin/cp robots.txt sitemap.xml $DEPLOYPATH

@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/YOUR_CPANEL_USERNAME/public_html/
+    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R css js assets category $DEPLOYPATH
+    - /bin/cp favicon.png logo-full.png logo-full-light.png logo-mark.png og-image.jpg $DEPLOYPATH
+    - /bin/cp robots.txt sitemap.xml $DEPLOYPATH

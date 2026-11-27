@@ -776,3 +776,12 @@ a:hover .roll__inner, button:hover .roll__inner, a:focus-visible .roll__inner { 
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
   .hero__pill-track { animation: none; }
 }
+
+/* ---------- SEO links (service pages, case studies, hero kicker) ---------- */
+.hero__kicker { display: block; font-size: clamp(.78rem, 1vw, .95rem); font-weight: 500; letter-spacing: .04em; line-height: 1.4; color: var(--black); margin-bottom: 1vh; }
+.svc__more { display: block; margin-top: 16px; color: var(--accent); width: fit-content; }
+.svc__more:hover { text-decoration: underline; text-underline-offset: 4px; }
+.case__foot { align-items: center; gap: 16px 28px; flex-wrap: wrap; }
+.case__page-link { color: var(--black); }
+.case__page-link:hover { color: var(--accent); }
+.work__empty a { text-decoration: underline; text-underline-offset: 4px; }

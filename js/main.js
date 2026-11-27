@@ -178,7 +178,7 @@
     })
   );
   // plain in-page anchors (hero, footer, cards) get smooth scroll
-  $$('a[href^="#"]:not([data-transition]):not(.project):not([data-case-cta])').forEach(a =>
+  $$('a[href^="#"]:not([data-transition]):not(.project):not([data-case-cta]):not([data-case-page])').forEach(a =>
     a.addEventListener('click', e => {
       const hash = a.getAttribute('href');
       if (hash.length < 2) return;
@@ -329,6 +329,7 @@
       media.appendChild(img);
     });
     $('.case__desc', caseEl).textContent = d.desc;
+    $('[data-case-page]', caseEl).href = card.getAttribute('href');
     $('.case__client', caseEl).textContent = d.client;
     $('.case__sector', caseEl).textContent = d.sector;
     const list = $('.case__services', caseEl);
@@ -716,6 +717,8 @@
       curtain.classList.add('is-transition');
       lenis?.start();
       ScrollTrigger.refresh();
+      // Arriving from a sub-page link such as /#contact
+      if (location.hash.length > 1 && $(location.hash)) scrollToTarget(location.hash, true);
     });
 
   /* ---------------- Section reveals ---------------- */
